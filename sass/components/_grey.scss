@@ -1,0 +1,51 @@
+.grey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.section-grey {
+  background: var(--seventh-color);
+  background-size: cover;
+  background: var(--seventh-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/BackgroundIndex.jpg);
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.grey-tittle {
+  font-size: 44px;
+  color: var(--secondary-color);
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  max-width: 696px;
+}
+.grey-button {
+  background-color: var(--main-color);
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  padding: 10px 42px 10px 41px;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  display: block;
+  text-decoration: none;
+}

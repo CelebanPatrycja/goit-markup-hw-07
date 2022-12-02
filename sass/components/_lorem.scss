@@ -1,0 +1,37 @@
+.lorem {
+  display: flex;
+  line-height: 1.14;
+  justify-content: center;
+  gap: 30px;
+}
+.lorem-list {
+  display: flex;
+  gap: 30px;
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f4fa;
+    height: 120px;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+  }
+  &__title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  &__text {
+    margin-top: 10px;
+    width: 270px;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--third-color);
+  }
+}
+.lorem-margin:last-child {
+  margin-right: 0;
+}

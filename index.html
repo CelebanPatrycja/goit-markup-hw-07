@@ -25,7 +25,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
      <body class="body-class">
       <header class="header">
@@ -64,7 +64,7 @@
         </div>
       </header>
     <main>
-      <section class="section-gray">
+      <section class="section-grey">
         <div class="container grey">
             <div>
             <h1 class="grey-tittle">Efektywne rozwiązania dla waszego biznesu</h1>
@@ -116,16 +116,15 @@
                         placeholder="Wprowadź tekst"
                       ></textarea>
                     </label>
-                    <label class="check-label">
-                      <input class="check-input" type="checkbox" />
-                      <svg class="check-box" width="16" height="15">
-                        <use
-                          href="./images/icons.svg#icon-icon-check"
-                        ></use>
-                      </svg>
-                      Oświadczam iż akceptuję
-                      <span class="check-text">Regulamin </span> i
-                      <span class="check-text">Politykę Prywatności.</span>
+                    <label class="check__label">
+                      <input class="check__input" type="checkbox" id="legal" /><span class="checkmark"
+                        ><svg class="check-svg" width="11" height="8">
+                          <use xlink:href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                        <span>Oświadczam, iż akceptuję <a class="checkbox-text" href="#">regulamin</a> i
+                          <a class="checkbox-text" href="#">politykę prywatności</a></span
+                        ></span
+                      >
                     </label>
                     <button class="check-button-submit" type="submit">Wyślij</button>
                   </form>
@@ -133,30 +132,30 @@
         </div>
       </section>
       <section class="section">
-        <div class="container box-lorems">
-          <ul class="lorem__list">
+        <div class="container lorem">
+          <ul class="lorem-list">
             <li>
-        <div class="lorem__list-item">
+        <div class="lorem-list__item">
             <svg width="65,32" height="70"><use href="./images/icons.svg#icon-antenna-1"></use></svg></div>
-                <h3 class="lorem__list--text">LOREM IPSUM</h3>
+                <h3 class="lorem-list__title">LOREM IPSUM</h3>
                 <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
             </li>
             <li>
-                <div class="lorem__list-item">
+                <div class="lorem-list__item">
                     <svg width="65,32" height="70"><use href="./images/icons.svg#icon-clock-1"></use></svg></div>
-                <h3 class="lorem__list--title">LOREM IPSUM</h3>
+                <h3 class="lorem-list__title">LOREM IPSUM</h3>
                 <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
             </li>
             <li>
-                <div class="lorem__list-item">
+                <div class="lorem-list__item">
                     <svg width="65,32" height="70"><use href="./images/icons.svg#icon-diagram-1"></use></svg></div>
-                <h3 class="lorem__list--title">LOREM IPSUM</h3>
+                <h3 class="lorem-list__title">LOREM IPSUM</h3>
                 <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
             </li>
             <li>
-                <div class="lorem__list-item">
+                <div class="lorem-list__item">
                     <svg width="65,32" height="70"><use href="./images/icons.svg#icon-astronaut-1"></use></svg></div>
-                <h3 class="lorem__list--title">LOREM IPSUM</h3>
+                <h3 class="lorem-list__title">LOREM IPSUM</h3>
                 <p class="lorem__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
             </li>
         </ul>
@@ -165,8 +164,8 @@
       <section>
         <div class="container">
           <div class="our-job">
-        <h2 class="our-job__headline">Czym się zajmujemy</h2> </div>
-        <ul class="our-job__list">
+        <h2 class="our-job-headline">Czym się zajmujemy</h2> </div>
+        <ul class="our-job-list">
         <li >
           <p class="our-job__inner">
             <a class="our-job__text">
@@ -206,125 +205,125 @@
      <section class="section our-team">
         <div class="container">
           <div>
-            <h2 class="team__headline">Nasz Zespół</h2>
-            <ul class="team__list">
-              <li class="team__item">
+            <h2 class="team-headline">Nasz Zespół</h2>
+            <ul class="team-list">
+              <li class="team-list__item">
                 <img
-                  class="team__picture"
+                  class="team-list__pic"
                   src="images/img(13).jpg"
                   alt="product designer"
                   width="270"
                   height="260"
                 />
-                  <p class="team__text--name">John Doe</p>
-                  <p class="team__text--position">Product designer</p>
+                  <p class="team-list__text--name">John Doe</p>
+                  <p class="team-list__text--position">Product designer</p>
                     <div class="">
                       <ul class="team__list"> 
                       <li >
-                        <a class="team__link" href="http://instagram.com">
+                        <a class="team-list__link" href="http://instagram.com">
                       <svg class="team__icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
                       </svg>
                     </a>
                   </li>
                   <li >
-                    <a class="team__link" href="http://twitter.com">
+                    <a class="team-list__link" href="http://twitter.com">
                       <svg class="team__icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li >
-                    <a class="team__link" href="http://facebook.com">
+                    <a class="team-list__link" href="http://facebook.com">
                       <svg class="team__icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
                       </svg>
                     </a>
                   </li>
                   <li >
-                    <a class="team__link" href="http://linkedin.com">
+                    <a class="team-list__link" href="http://linkedin.com">
                       <svg class="team__icon" width="20" height="20">
                         <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
                       </svg>
                     </a>
                   </li></ul></div>  
               </li>
-              <li class="team__item">
+              <li class="team-list__item">
                 <img
-                  class="team__picture"
+                  class="team-list__pic"
                   src="images/img.jpg"
                   alt="frontend developer"
                   width="270"
                   height="260"
                 />
-                  <p class="team__text--name">John Doe</p>
-                  <p class="team__text--position">Frontend Developer</p>
+                  <p class="team-list__text--name">John Doe</p>
+                  <p class="team-list__text--position">Frontend Developer</p>
                   <div class="">
                     <ul class="team__list"> 
                     <li >
-                      <a class="team__link"  href="http://instagram.com">
+                      <a class="team-list__link"  href="http://instagram.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://twitter.com">
+                  <a class="team-list__link" href="http://twitter.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://facebook.com">
+                  <a class="team-list__link" href="http://facebook.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://linkedin.com">
+                  <a class="team-list__link" href="http://linkedin.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
                     </svg>
                   </a>
                 </li></ul></div>  
             </li>
-              <li class="team__item">
+              <li class="team-list__item">
                 <img
-                  class="team__picture"
+                  class="team-list__pic"
                   src="images/img(1).jpg"
                   alt="marketing"
                   width="270"
                   height="260"
                 />
-                  <p class="team__text--name">John Doe</p>
-                  <p class="team__text--position">Marketing</p>
+                  <p class="team-list__text--name">John Doe</p>
+                  <p class="team-list__text--position">Marketing</p>
                   <div>
                     <ul class="team__list"> 
                     <li >
-                      <a class="team__link" href="http://instagram.com">
+                      <a class="team-list__link" href="http://instagram.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link"  href="http://twitter.com">
+                  <a class="team-list__link"  href="http://twitter.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://facebook.com">
+                  <a class="team-list__link" href="http://facebook.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://linkedin.com">
+                  <a class="team-list__link" href="http://linkedin.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
                     </svg>
@@ -332,41 +331,41 @@
                 </li></ul></div>  
             </li>
               </li>
-              <li class="team__item">
+              <li class="team-list__item">
                 <img
-                  class="team__picture"
+                  class="team-list__pic"
                   src="images/img(14).jpg"
                   alt="ui designer"
                   width="270"
                   height="260"
                 />
-                  <p class="team__text--name">John Doe</p>
-                  <p class="team__text--position">UI Designer</p>
+                  <p class="team-list__text--name">John Doe</p>
+                  <p class="team-list__text--position">UI Designer</p>
                   <div class="">
                     <ul class="team__list"> 
                     <li >
-                      <a class="team__link"  href="http://instagram.com">
+                      <a class="team-list__link"  href="http://instagram.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://twitter.com">
+                  <a class="team-list__link" href="http://twitter.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://facebook.com">
+                  <a class="team-list__link" href="http://facebook.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
                     </svg>
                   </a>
                 </li>
                 <li >
-                  <a class="team__link" href="http://linkedin.com">
+                  <a class="team-list__link" href="http://linkedin.com">
                     <svg class="team__icon" width="20" height="20">
                       <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
                     </svg>
@@ -380,8 +379,8 @@
     </main>
     <section class="section">
       <div class="container">
-      <h2 class="clients__headline">Nasi Klienci</h2>
-          <ul class="clients__list">
+      <h2 class="clients-headline">Nasi Klienci</h2>
+          <ul class="clients-list">
             <li>
               <a href="#" class="clients__link"><svg  width="170">
                 <use href="./images/icons.svg#icon-Client-1" ></use></svg></a>
@@ -391,19 +390,19 @@
               <use href="./images/icons.svg#icon-Client-2" ></use></svg></a>
         </li>
         <li>
-          <a href="#" class="clients__link"><svg width="170">
+          <a href="#" class="clients-list__link"><svg width="170">
             <use href="./images/icons.svg#icon-Client-3" ></use></svg></a>
       </li>
               <li>
-                  <a href="#"  class="clients__link"><svg width="170">
+                  <a href="#"  class="clients-list__link"><svg width="170">
                     <use href="./images/icons.svg#icon-Client-4" ></use></svg></a>
               </li>
               <li class="client">
-                <a href="#"  class="clients__link"><svg width="170">
+                <a href="#"  class="clients-list__link"><svg width="170">
                   <use href="./images/icons.svg#icon-Client-5" ></use></svg></a>
             </li>
             <li>
-              <a href="#"  class="clients__link"><svg width="170">
+              <a href="#"  class="clients-list__link"><svg width="170">
                 <use href="./images/icons.svg#icon-Client-6" ></use></svg></a>
           </li>
           </ul>
@@ -420,40 +419,40 @@
                 m. Warszawa, Aleje Jerozolimskie 21</p>
               <ul class="footer__list">
                 <li>
-                  <a class="footer__link elementblue" 
+                  <a class="footer-list__link elementblue" 
                   href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a class="footer__link elementblue" 
+                    <a class="footer-list__link elementblue" 
                     href="tel:+48111111111">+48 111 111 111</a>
                 </li>
               </ul>
               </div>
             <div class="joinus">
-              <h3 class="joinus__text">DOŁĄCZ DO NAS</h3>
-                <ul class="joinus__list"> 
-                <li class="joinus__item">
+              <h3 class="joinus__title">DOŁĄCZ DO NAS</h3>
+                <ul class="joinus-list"> 
+                <li class="joinus-list__item">
                   <a class="joinus__link"  href="http://instagram.com">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="joinus__item" >
+            <li class="joinus-list__item" >
               <a class="joinus__link" href="http://twitter.com">
                 <svg width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="joinus__item">
+            <li class="joinus-list__item">
               <a class="joinus__link" href="http://facebook.com">
                 <svg  width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li class="joinus__item" >
+            <li class="joinus-list__item" >
               <a class="joinus__link" href="http://linkedin.com">
                 <svg  width="20" height="20">
                   <use xlink:href="./images/icons.svg#icon-linkedin-1"></use>
@@ -475,6 +474,6 @@
             </form>
           </div>
         </footer>
-        <script src="./modal.js"></script>
+        <script src="./js/modal.js"></script>
       </body>
     </html>
