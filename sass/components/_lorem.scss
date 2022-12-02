@@ -24,14 +24,16 @@
     font-size: 14px;
     line-height: 1.14;
   }
-  &__text {
-    margin-top: 10px;
-    width: 270px;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--third-color);
-  }
 }
+
 .lorem-margin:last-child {
   margin-right: 0;
+}
+.lorem__text {
+  margin-top: 10px;
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--third-color);
+  margin-top: 10px;
 }

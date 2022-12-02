@@ -1,18 +1,17 @@
-.check__label {
-  margin-top: 30px;
-}
 .check__input {
   opacity: 0;
 }
 .check__input:checked {
   outline: 0;
 }
-
-.check__label .checkbox-text {
+.check__option {
+  margin-top: 30px;
+}
+.check__option .blue-checkbox-text {
   color: #2196f3;
   text-decoration: underline;
 }
-.check__label .check-svg {
+.check__option .check-box {
   width: 16px;
   height: 15px;
   fill: #ffffff;

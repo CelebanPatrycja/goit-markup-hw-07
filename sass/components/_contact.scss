@@ -25,3 +25,22 @@
 .contact:hover {
   color: var(--main-color);
 }
+.contacts-list__link {
+  color: var(--third-color);
+  font-size: 14px;
+}
+.contacts-two {
+  color: var(--fifth-color);
+}
+.contacts-list__icon {
+  fill: var(--third-color);
+  margin-right: 10px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contact {
+  color: var(--third-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.17;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

@@ -1,10 +1,18 @@
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer-logo {
+  color: var(--secondary-color);
+}
 .footer__inner {
   padding-bottom: 20px;
   display: inline-block;
 }
-.footer-logo {
-  color: var(--secondary-color);
-}
+
 .footer__studioname {
   color: var(--main-color);
   font-family: "Raleway";
@@ -12,7 +20,6 @@
   font-size: 26px;
   line-height: 1.19;
 }
-
 .footer__studioname--white {
   color: var(--fourth-color);
   font-family: "Raleway";
@@ -21,6 +28,16 @@
   line-height: 1.19;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.footer__studioname--white:hover {
+  color: var(--main-color);
+}
+
+.footer {
+  background: var(--seventh-color);
+  padding: 60px 0px;
+}
+
 .footer__contact {
   margin: 0 auto;
   margin-top: 20px;
@@ -30,23 +47,24 @@
   font-size: 14px;
   line-height: 1.71;
 }
-.footer-list {
+.footer__list {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   gap: 9px;
-  &__link {
-    color: rgba(255, 255, 255, 0.6);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-  }
-}
-.footer__studioname--white:hover {
-  color: var(--main-color);
 }
 
-.footer {
-  background: var(--seventh-color);
-  padding: 60px 0px;
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer-logo {
+  color: var(--secondary-color);
+}
+.footer__inner {
+  padding-bottom: 20px;
+  display: inline-block;
 }
