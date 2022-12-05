@@ -4,7 +4,7 @@
   line-height: 1.14;
   display: flex;
 
-  &__agency {
+  &__link {
     color: var(--fifth-color);
     margin-right: 46px;
     position: relative;
@@ -15,7 +15,7 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  &__agency--activ {
+  &__link--activ {
     color: var(--fifth-color);
     margin-right: 46px;
     position: relative;
@@ -24,41 +24,12 @@
     text-decoration: none;
     color: var(--fifth-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__portfolio {
-    position: relative;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 140;
-    letter-spacing: 0, 82em;
-    text-decoration: none;
-    color: var(--fifth-color);
-    transition-property: color;
-  }
-  &__contacts {
-    color: var(--fifth-color);
-  }
-  &__portfolio {
-    color: var(--fifth-color);
-    margin-right: 46px;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__portfolio--activ {
-    position: relative;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1, 140;
-    letter-spacing: 0, 82em;
-    text-decoration: none;
-    color: var(--fifth-color);
-    transition-property: color;
-    margin-right: 46px;
   }
 }
 
 //  Activ Butoon
 
-.nav-list__portfolio--activ::after {
+.nav-list__link--activ::after {
   position: absolute;
   content: "";
   height: 4px;
@@ -69,20 +40,7 @@
   left: 0px;
 }
 
-.nav-list__agency--activ::after {
-  position: absolute;
-  content: "";
-  height: 4px;
-  background-color: #2196f3;
-  width: 100%;
-  border-radius: 2px;
-  bottom: -36px;
-  left: 0px;
-}
-.navmenu-index > .menu {
-  color: var(--tenth-color);
-}
-
+.navmenu-index,
 .navmenu-portfolio > .menu {
   color: var(--tenth-color);
 }
