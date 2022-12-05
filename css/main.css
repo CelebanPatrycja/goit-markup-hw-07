@@ -66,11 +66,6 @@ li:hover p {
   padding: 24 0;
   border-bottom: 1px solid #ececec;
 }
-
-.header__studioname--black:hover {
-  color: var(--main-color);
-}
-
 .header__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,7 +79,6 @@ li:hover p {
   padding-top: 24px;
   margin-bottom: 32px;
 }
-
 .header__nav {
   text-decoration: none;
   font-size: 14px;
@@ -96,7 +90,6 @@ li:hover p {
       -ms-flex-align: baseline;
           align-items: baseline;
 }
-
 .header__studioname {
   color: var(--fifth-color);
   margin: 0 auto;
@@ -107,7 +100,6 @@ li:hover p {
   line-height: 1.19;
   margin-right: 93px;
 }
-
 .header__studioname--black {
   color: var(--nineth-color);
   font-family: "Raleway";
@@ -116,6 +108,10 @@ li:hover p {
   line-height: 1.19;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header__studioname--black:hover {
+  color: var(--main-color);
 }
 
 .nav-list {
@@ -168,7 +164,7 @@ li:hover p {
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-list .nav-list__portfolio--activ {
+.nav-list__portfolio--activ {
   position: relative;
   font-weight: 500;
   font-size: 14px;
@@ -266,6 +262,18 @@ li:hover p {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.section-grey {
+  background: var(--seventh-color);
+  background-size: cover;
+  background: var(--seventh-color);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/BackgroundIndex.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/BackgroundIndex.jpg);
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
 .grey {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -281,46 +289,13 @@ li:hover p {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-
-.section-grey {
-  background: var(--seventh-color);
-  background-size: cover;
-  background: var(--seventh-color);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/BackgroundIndex.jpg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/BackgroundIndex.jpg);
-  background-size: cover;
-  max-width: 1600px;
-  height: 600px;
-  margin: 0 auto;
-}
-
-.grey-tittle {
+.grey__headline {
   font-size: 44px;
   color: var(--secondary-color);
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   max-width: 696px;
-}
-
-.grey-button {
-  background-color: var(--main-color);
-  font-weight: 700;
-  color: white;
-  cursor: pointer;
-  padding: 10px 42px 10px 41px;
-  border-radius: 4px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: inherit;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  border: none;
-  display: block;
-  text-decoration: none;
 }
 
 .textarea-label {
