@@ -1007,7 +1007,7 @@ clients__svg {
           transition-timing-function: cubic-bezier(0.71, 1.51, 0.4, 2);
 }
 
-.modal-button__close {
+.modal__close {
   position: absolute;
   width: 30px;
   height: 30px;
